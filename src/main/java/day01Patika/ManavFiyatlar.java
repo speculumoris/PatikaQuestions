@@ -1,5 +1,6 @@
 package day01Patika;
 
+import java.util.Date;
 import java.util.Scanner;
 
 public class ManavFiyatlar {
@@ -39,6 +40,7 @@ public class ManavFiyatlar {
         patlican*=5.00;
 
         System.out.println("Toplam tutar: "+(armut+elma+domates+muz+patlican));
+        
 
 
     }
