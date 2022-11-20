@@ -36,7 +36,8 @@ public class AvarageOfLessons {
         double avarageOfLectures=(math+music+physics+chemistry+history+turkish)/7;
         System.out.println("avarage Of Lectures = " + avarageOfLectures);
 
-        if (avarageOfLectures>=60){
+
+        if (avarageOfLectures>=55){
             System.out.println("sinifi gecti");
         }else {
             System.out.println("Sinifta kaldi");
