@@ -15,23 +15,30 @@ public class EbobEkok {
         int sayi2= scan.nextInt();
 
         ArrayList<Integer>sayiList=new ArrayList<>();
+        int max=0;
+        int min =0;
         int i=1;
+
         do {
 
             if (sayi1 % i == 0 && sayi2 % i == 0) {
                 sayiList.add(i);
-                System.out.println(sayiList);
-                i++;
+
             }
+            i++;
 
         } while (i != sayi1 && i != sayi2);
-
         System.out.println(sayiList);
-        int max=0;
+
         for (Integer w:sayiList) {
             max=Math.max(max,w);
         }
-        System.out.println(max);
+        System.out.println("iki sayinin ebob'u :"+max);
+
+        int ekok =sayi1*sayi2/max;
+        System.out.println("iki sayinin ekok'u :"+ekok);
+
+
 
     }
 }
