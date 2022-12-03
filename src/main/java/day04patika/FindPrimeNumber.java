@@ -1,4 +1,4 @@
-package day04;
+package day04patika;
 
 import java.util.Scanner;
 

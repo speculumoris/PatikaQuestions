@@ -1,4 +1,4 @@
-package day04;
+package day04patika;
 
 public class Palindrome {
     //Palindromik sayı, iki taraftan okunduğu zaman okunuş yönüyle aynı olan sayılardır.

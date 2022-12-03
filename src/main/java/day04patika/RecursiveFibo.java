@@ -1,4 +1,4 @@
-package day04;
+package day04patika;
 
 public class RecursiveFibo {
     //Java'da recursive metotlar ile fibonacci serisi bulan program yapıyoruz.
